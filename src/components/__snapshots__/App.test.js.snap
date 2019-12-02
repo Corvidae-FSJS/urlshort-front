@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders App 1`] = `
+<BrowserRouter>
+  <Header />
+  <Switch>
+    <PrivateRoute
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(MemeForm)",
+          "type": [Function],
+        }
+      }
+      exact={true}
+      path="/"
+    />
+    <PrivateRoute
+      component={[Function]}
+      path="/memes"
+    />
+    <Route
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(UserForm)",
+          "type": [Function],
+        }
+      }
+      path="/login"
+    />
+  </Switch>
+</BrowserRouter>
+`;
